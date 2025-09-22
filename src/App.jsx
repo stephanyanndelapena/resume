@@ -106,7 +106,7 @@ function Container() {
       <aside className="left-column">
         <Header
           imageSrc="/images/profile.png"
-          name="Stephany Ann S. Dela Peña"
+          name="Stephany Ann Dela Peña"
         />
         <Contact
           address="Candaba, Province of Pampanga, PAM 2013"

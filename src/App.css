@@ -26,8 +26,8 @@
   font-weight: bold;
 }
 .header_profile-pic {
-  width: 100%;
-  height: auto;
+  width: 260px;
+  height: 260px;
   margin-bottom: 10px;
 }
 .header_name {
