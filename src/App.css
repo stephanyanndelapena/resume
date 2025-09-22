@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.left-column {
+  background-color: #094d73; 
+  color: white;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  flex: 3;
+  background-color: #ffffff;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.header_profile-pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.header_name {
+  margin: 0;
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.contact_title {
+  background-color: #073e5c;
+  font-size: 23px;
+  margin: 0 -20px; 
+  padding: 10px 20px;
+}
+
+.skills_title {
+  background-color: #073e5c;
+  font-size: 23px;
+  margin: 0 -20px;
+  padding: 10px 20px;
+}
+.skills_list {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.skills_list li {
+  padding: 10px;
+}
+.profile {
+  margin: 26px;
+  color: #5e5e5e;
+}
+
+.section {
+  padding: 20px;
+}
+.section_title {
+  color: #0d4f7c;
+  border-top: 1px solid #8f8f8f;
+  border-bottom: 1px solid #8f8f8f;
+  padding: 7px;
+  margin-top: 0;
+  padding-left: 0%;
+}
+
+.edu_entry {
+  display: flex;
+  margin-bottom: 7px;
+}
+.edu-date {
+  flex: 0 0 120px;
+}
+.edu_role {
+  margin: 0;
+  font-size: 21px;
+  padding-bottom: 5px;
+  color: #313131;
+}
+.edu_school {
+  font-style: italic;
+  color: #4e4e4e;
+  margin: 2px 0 5px 0;
+  padding-top: 5px;
+}
+
+.job_entry {
+  display: flex;
+  margin-bottom: 10px;
+}
+.exp_date {
+  flex: 0 0 120px;
+  font-size: 18px;
+  color: #4e4e4e;
+  text-align: center;
+}
+.exp_info {
+  flex: 1;
+}
+.exp_role {
+  margin: 0;
+  font-size: 21px;
+  padding-bottom: 5px;
+  color: #313131;
+}
+.exp_org {
+  font-style: italic;
+  color: #4e4e4e;
+  padding: 2px;
+  margin: 5px 0;
+}
+.exp_desc {
+  margin: 2px;
+  padding: 2px 2px 2px 20px;
+  color: #4e4e4e;
+}
