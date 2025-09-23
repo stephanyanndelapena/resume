@@ -26,7 +26,8 @@
   font-weight: bold;
 }
 .header_profile-pic {
-  width: 260px;
+  padding-left: 3px;
+  width: 265px;
   height: 260px;
   margin-bottom: 10px;
 }
@@ -42,12 +43,15 @@
   margin: 0 -20px; 
   padding: 10px 20px;
 }
-
+.contact p{
+  font-size: 16px;
+}
 .skills_title {
   background-color: #073e5c;
   font-size: 23px;
   margin: 0 -20px;
   padding: 10px 20px;
+  margin-top: 15px;
 }
 .skills_list {
   padding-left: 20px;
@@ -55,10 +59,12 @@
 }
 .skills_list li {
   padding: 10px;
+  font-size: 16px;
 }
 .profile {
   margin: 26px;
   color: #5e5e5e;
+  font-size: 17px;
 }
 
 .section {
@@ -71,6 +77,7 @@
   padding: 7px;
   margin-top: 0;
   padding-left: 0%;
+  font-size: 25px;
 }
 
 .edu_entry {
@@ -79,47 +86,53 @@
 }
 .edu-date {
   flex: 0 0 120px;
+  margin-right: 15px;
 }
 .edu_role {
   margin: 0;
-  font-size: 21px;
+  font-size: 20px;
   padding-bottom: 5px;
-  color: #313131;
+  color: #3f3f3f;
 }
 .edu_school {
   font-style: italic;
   color: #4e4e4e;
   margin: 2px 0 5px 0;
   padding-top: 5px;
+  font-size: 16px;
 }
 
 .job_entry {
   display: flex;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 .exp_date {
   flex: 0 0 120px;
   font-size: 18px;
   color: #4e4e4e;
-  text-align: center;
+  padding-top: 5px;
 }
 .exp_info {
   flex: 1;
 }
 .exp_role {
   margin: 0;
-  font-size: 21px;
+  font-size: 20px;
   padding-bottom: 5px;
-  color: #313131;
+  color: #3f3f3f;
+  margin-left: 19px;
 }
 .exp_org {
   font-style: italic;
   color: #4e4e4e;
   padding: 2px;
   margin: 5px 0;
+  margin-left: 19px;
 }
 .exp_desc {
   margin: 2px;
   padding: 2px 2px 2px 20px;
   color: #4e4e4e;
+  margin-left: 19px;
 }

@@ -17,7 +17,6 @@ function Contact({ address, phone, email, website }) {
       <p><strong>Address</strong><br />{address}</p>
       <p><strong>Phone</strong><br />{phone}</p>
       <p><strong>E-mail</strong><br />{email}</p>
-      <p><strong>WWW</strong><br /><u>{website}</u></p>
     </div>
   );
 }
@@ -112,7 +111,6 @@ function Container() {
           address="Candaba, Province of Pampanga, PAM 2013"
           phone="+63 915 620 9811"
           email="sasdelapena.student@ua.edu.ph"
-          website="Bold Profile"
         />
         <Skills
           skills={[
